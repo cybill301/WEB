@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding-right: 10px;
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 150;
+}
+
+p {
+    padding: 0 10px;
+    line-height: 1.8;
+}
+
+ul li {
+    padding-right: 10px;
+    line-height: 1.9;
+}
+
+h1 {
+    font-size: 3vw;
+    padding: 5px 20px;
+    margin: 0;
+}
+h2 {
+    font-size: 1vw;
+    padding: 5px 20px;
+    margin: 0;
+}
+
+div#navigation {
+    background: #ffff00;
+}
+
+div#navigation li {
+    list-style: none;
+}
+
+div#wrapper {
+    float: left;
+    width: 100%;
+    background: #0048ff;
+    color: #c3c3c3;
+}
+
+div#content {
+    margin: 0 35%;
+
+}
+
+div#navigation {
+    float: left;
+    width: 25%;
+    margin-left: -25%;
+}
+
+div#extra {
+    float: left;
+    width: 25%;
+    margin-left: -100%;
+}
