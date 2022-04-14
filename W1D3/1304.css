@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fraunces:ital,wght@0,500;0,600;0,700;1,600&display=swap");
-*,
-*:after,
-*:before {
+* {
   box-sizing: border-box;
 }
 
@@ -33,11 +31,22 @@ ul li {
 }
 
 hr {
-  border;: 1px solid rgb(204,204,204)
+  border: 1px solid rgb(204,204,204)
 }
 
-/* main */
-  .responsive-wrapper {
+  .button-link {
+    font-size: medium;
+    color: #00aaff;
+  }
+
+  .button-link1 {
+    padding-left: 1rem;
+    border-radius: 30px;
+    font-size: medium;
+    color: rgb(204,204,204) ;
+    background-color: #000;
+  }
+    .responsive-wrapper {
     max-width: 1900px;
     padding-bottom: 4rem;
   }
@@ -86,7 +95,6 @@ hr {
   .right-column {
     grid-column: span 1;
     padding: 0 2rem;
-      
     }
   
   .article + .article {
