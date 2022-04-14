@@ -44,7 +44,9 @@ div#wrapper {
 div#content {
     margin: 0 35%;
 
-}div#navigation {
+}
+
+div#navigation {
     float: left;
     width: 25%;
     margin-left: -25%;
