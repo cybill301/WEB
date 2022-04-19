@@ -1,27 +1,28 @@
 <!doctype html>
 
 <html dir="ltr" lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="smooth-scroll.js"></script>
     <title>W1D3_TWITTER STYLE LOOK</title>
-    <link rel="stylesheet" href="1304.css">
+    <link rel="stylesheet" href="1804.css">
+    <link rel="icon" href="/W1D3/images/twitter.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-    <body>
-        <!-- index.html -->
-        <header class="header responsive-wrapper">
-            <div class="header-left">
-                <img src="/W1D3/images/twitter.png" alt="TWITTER" height="30"> </img>
-            </div>
-            <div class="page-title">
-                <h1>TWITTER COPY / STYLE EXERCISE</h1>
-            </div>
-        </header>
-        <!-- BODY -->
-        <main class="responsive-wrapper">
-            <div class="layout">
-                <div class="left-column">
-                    <article class="article">
+    <header>
+        <div class="header-left">
+            <img src="/W1D3/images/twitter.png" alt="TWITTER" height="50" ></img>
+        </div>
+        <div class="page-title">
+            <h1>TWITTER COPY / STYLE EXERCISE</h1>
+        </div>
+    </header>
+</head>
+<body>
+    <selection class="wrapper">
+        <div class="layout">
+            <div class="left-column">
+                    <div class="article">
                         <!-- Navigation -->
                         <ul>
                             <li><span class="material-icons">home</span> <a href="fake-twitter.html"> Home</a></li>
@@ -32,10 +33,13 @@
                             <li><span class="material-icons">list</span> <a href="#"> Lists</a></li>
                             <li><span class="material-icons">face</span> <a href="#"> Profile</a></li>
                             <li><span class="material-icons">more_horiz</span> <a href="#">  More...</a></li>
+                            <div class="button-link1">
+                                <p>Tweet</p>
+                            </div>
                         </ul>
                         <!--CTA bottom: Tweet-->
-                    </article>
-                    <article class="article">                            
+                    </div>
+                    <div class="article">                          
                         <div class="article-author">
                             <div class="article-author-img">
                                 <img src="/W1D3/images/cybill301.jpg" height="50"/>
@@ -47,38 +51,51 @@
                                 </dl>
                             </div>
                         </div>
-                    </article>
-                </div>
-                <div class="mid-column">
-                    <article class="article">
-                        <figure class="article-img">
-                            <img src="/W1D3/images/mid-column-demo.jpeg" />
-                        </figure>
-                        <h2 class="article-title article-title--medium">
-                            <a href="#" class="article-link">How 8 Lines of Code Turned Into a $36 Billion Empire</a>
-                        </h2>
-                        <div class="article-excerpt">
-                            <p>Yeah, it's safe to say these guys have a great sense of humor, 
-                            which isn't really suprising for us considering their seemingly absurd solution 
-                            to online payments. Instead of chasing 1000-hour programming contracts to build 
-                            clunky payments solutions for each individual client, the Collison...</p>
-                        </div>
-                        <hr/>
+                    </div>
+            </div>
+            <div class="mid-column scroller">
+                <article class="article">
                     <figure class="article-img">
-                        <img src="/W1D3/images/mid-column-demo2.jpeg" />
+                        <img src="/W1D3/images/mid-column-demo.jpeg" />
                     </figure>
-                    <h2 class="article-title article-title--medium">
-                        <a href="#" class="article-link">How 7 Lines of Code Turned Into a $36 Billion Empire</a>
-                    </h2>
+                    <h3 class="article-title article-title--medium">
+                        <a href="#" class="article-link">How 8 Lines of Code Turned Into a $36 Billion Empire</a>
+                    </h3>
                     <div class="article-excerpt">
                         <p>Yeah, it's safe to say these guys have a great sense of humor, 
                             which isn't really suprising for us considering their seemingly absurd solution 
                             to online payments. Instead of chasing 1000-hour programming contracts to build 
                             clunky payments solutions for each individual client, the Collison...</p>
                     </div>
-                    </article>
-                </div>
-                <div class="right-column">
+                    <br/>
+                    <figure class="article-img">
+                        <img src="/W1D3/images/mid-column-demo2.jpeg" />
+                    </figure>
+                    <h3 class="article-title article-title--medium">
+                        <a href="#" class="article-link">How 7 Lines of Code Turned Into a $36 Billion Empire</a>
+                    </h3>
+                    <div class="article-excerpt">
+                        <p>Yeah, it's safe to say these guys have a great sense of humor, 
+                            which isn't really suprising for us considering their seemingly absurd solution 
+                            to online payments. Instead of chasing 1000-hour programming contracts to build 
+                            clunky payments solutions for each individual client, the Collison...</p>
+                    </div>
+                    <br/>
+                    <figure class="article-img">
+                        <img src="/W1D3/images/mid-column-demo3.jpeg" />
+                    </figure>
+                    <h3 class="article-title article-title--medium">
+                        <a href="#" class="article-link">How 7 Lines of Code Turned Into a $36 Billion Empire</a>
+                    </h3>
+                    <div class="article-excerpt">
+                        <p>Yeah, it's safe to say these guys have a great sense of humor, 
+                            which isn't really suprising for us considering their seemingly absurd solution 
+                            to online payments. Instead of chasing 1000-hour programming contracts to build 
+                            clunky payments solutions for each individual client, the Collison...</p>
+                    </div>
+                </article>
+            </div>
+            <div class="right-column">
                     <article class="article">
                         <h2 class="article-title article-title--medium">
                             <a href="#" class="article-link">What's happening</a>
@@ -143,8 +160,8 @@
                         <p>Terms of Service | Privacy Policy | Cookie Policy | Accessibility | Ads info | More | © 2022 Twitter, Inc.</p>
                         </div>
                     </article>
-                </div>
-        </main>
-    </body>
-        <!-- end -->
-    </html>
+            </div>
+        </div>
+    </selection>
+</body>
+</html>
